@@ -96,7 +96,6 @@ while index < source.length do
   index += 1
 end
 movies_by_dir
-end
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
   # INPUT:
