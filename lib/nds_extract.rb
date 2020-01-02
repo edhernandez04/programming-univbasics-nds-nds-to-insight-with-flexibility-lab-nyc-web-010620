@@ -34,15 +34,15 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
-director_array = []
-index = 0
-while index < movies_collection.length do
-  movie_data = movies_collection[index]
-    director_array << movie_with_director_name(name, movie_data)
-    index += 1
+  result = []
+    index = 0
+    while index < movies_collection.length do
+      movie_data = movies_collection[index]
+      result << movie_with_director_name(name, movie_data)
+      index += 1
+    end
+    result
   end
-  director_array
-end
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
   # and accumulate the returned Array of movies into a new Array that's
