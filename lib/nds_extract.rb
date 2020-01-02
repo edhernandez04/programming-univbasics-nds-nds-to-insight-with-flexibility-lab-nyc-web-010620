@@ -38,7 +38,7 @@ director_array = []
 index = 0
 while index < movies_collection.length do
   movie_data = movies_collection[index]
-    result << movie_with_director_name(name, movie_data)
+    director_array << movie_with_director_name(name, movie_data)
     index += 1
   end
 
