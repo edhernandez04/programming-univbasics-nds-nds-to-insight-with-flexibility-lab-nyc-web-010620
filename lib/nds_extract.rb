@@ -41,8 +41,7 @@ while index < movies_collection.length do
     director_array << movie_with_director_name(name, movie_data)
     index += 1
   end
-
-  result
+  director_array
 end
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
